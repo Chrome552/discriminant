@@ -16,12 +16,12 @@ try:
         print("No solutions")
     elif D == 0:
         # Finding x
-        x = -b / 2*a
+        x = -b / (2*a)
         print(f"x = {x}")
     else:
         # Finding x1, x2
-        x1 = (-b + sqrt(D)) / 2*a
-        x2 = (-b - sqrt(D)) / 2*a
+        x1 = (-b + sqrt(D)) / (2*a)
+        x2 = (-b - sqrt(D)) / (2*a)
         print(f"x1 = {x1}\nx2 = {x2}")
 except:
     print("Invalid input")
